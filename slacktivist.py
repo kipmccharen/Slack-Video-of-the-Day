@@ -65,7 +65,7 @@ if __name__ == "__main__":
     #msg = r"Kip's music video of the day! https://www.youtube.com/watch?v=" + vid
 
     playlist_items = get_playlist_items(r"D:\Secrets\youtube.json", r"D:\Secrets\youtubetoken.json", "PLrmB8yjf5C3wJ-FcDMzMCjjoqw16oosPa")
-    vid = grab_next_video(r"C:\Users\kipmc\Documents\PyScripts\slack_archive_BLM.json", playlist_items)
+    vid = grab_next_video(r"D:\Git\Slack-Video-of-the-Day\slack_archive_BLM.json", playlist_items)
     msg = r"Black Lives Matter. https://www.youtube.com/watch?v=" + vid
 
     print(msg)
