@@ -37,7 +37,7 @@ def get_goog_oathcreds(token_txt_dir, creds_json_dir):
             token_uri=mysecret['token_uri'],
             client_id=mysecret['client_id'],
             client_secret=mysecret['client_secret'],
-            scopes=ytscopes,
+            scopes=["https://www.googleapis.com/auth/youtube.readonly"],
         )
         tmpexpiry = temp['expiry'].split('.')[0]
         oathcreds.expiry = datetime.datetime.strptime(tmpexpiry,'%Y-%m-%d %H:%M:%S')

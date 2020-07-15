@@ -49,19 +49,13 @@ def grab_next_video(archive, used, yt_playlist, mode="all"):
     #create archive if it doesn't exist, otherwise grab used and iterating lists 
     if os.path.exists(archive):
         archive_used = list_in_dot_txt(used, type="r")
-        # with open(used, 'r+') as f:
-        #     archive_used = f.read().split(',')
+        archive_iter = list_in_dot_txt(archive, type="r")
         archive_used, archive_iter = add_any_new_vids_to_archive(yt_playlist, archive_used, archive_iter)
     else:
         archive_iter = yt_playlist
         archive_used = [] 
     
-    # with open(used, 'w') as outfile: #save updated lists to the archive
-    #     outfile.write(','.join(archive_used))
     _ = list_in_dot_txt(archive, type="w", input_iter=archive_iter)
-    # with open(archive, 'w') as outfile: #save updated lists to the archive
-    #     outfile.write(','.join(archive_iter))
-        #json.dump({"used": archive_used, "iter": archive_iter}, outfile)
 
     if mode in ["all", "post new"]:
         rand = random.randint(0, len(archive_iter) - 1) #pick random number in range of length of iter list
@@ -85,10 +79,6 @@ def remove_played_vids(iter_list, used_list, dothedeed):
     print(f"open em up")
     archive_iter = list_in_dot_txt(iter_list, type="r")
     archive_used = list_in_dot_txt(used_list, type="r")
-    # with open(iter_list, 'r+') as file:
-    #     archive_iter = file.read().split(',')
-    # with open(used_list, 'r+') as f:
-    #     archive_used = f.read().split(',')
 
     print(f"{len(archive_iter)} items in archive_iter before making a set")
     archive_iter = set(archive_iter)
@@ -109,52 +99,41 @@ def remove_played_vids(iter_list, used_list, dothedeed):
     print(f'haul em out')
     if dothedeed:
         _ = list_in_dot_txt(iter_list, type="w", input_iter=archive_iter)
-        # with open(iter_list, 'w') as outfile: #save updated lists to the archive
-        #     outfile.write(','.join(archive_iter))
     print(f'rawhide')
 
 def put_back_in_iter(ytID_list, iter_list, used_list):
     ytID_list = set(ytID_list)
     print(f"ytID_list has {len(ytID_list)} members")
     archive_iter = list_in_dot_txt(iter_list, type="r")
-    # with open(iter_list, 'r+') as file:
-    #     archive_iter = set(file.read().split(','))
     print(f"archive_iter has {len(archive_iter)} unique members")
     archive_iter = archive_iter.union(ytID_list)
     print(f"archive_iter now has {len(archive_iter)} unique members")
     _ = list_in_dot_txt(iter_list, type="w", input_iter=archive_iter)
-    # with open(iter_list, 'w') as file:
-    #     file.write(','.join(archive_iter))
 
     archive_used = list_in_dot_txt(used_list, type="r")
-    # with open(used_list, 'r+') as f:
-    #     archive_used = f.read().split(',')
     print(f"archive_used has {len(archive_used)} members")
     archive_used = set(archive_used)
     print(f"archive_used has {len(archive_used)} unique members")
     archive_used = archive_used - ytID_list
     print(f"archive_used now has {len(archive_used)} unique members")
     _ = list_in_dot_txt(used_list, type="w", input_iter=archive_used)
-    # with open(used_list, 'w') as f:
-    #     f.write(','.join(archive_used))
 
 if __name__ == "__main__":
     used_dir = r"D:\Git\Slack-Video-of-the-Day\used.txt"
-    #iterating_yt_video_list = r"D:\Git\Slack-Video-of-the-Day\slack_archive.txt"
     iterating_yt_video_list = r"D:\Git\Slack-Video-of-the-Day\slack_archive_BLM.txt"
 
-    ##Management Options
+    ##Management Options##
     # put_back_in_iter(['zein2Bq8ymI', 'V-jEjoliaA0', 'AB-S8wL-AKY'], iterating_yt_video_list, used_dir)
     # remove_played_vids(iterating_yt_video_list, used_dir, True)
-    YTls = list_in_dot_txt(iterating_yt_video_list, type='r')
-    what_videos_remain(YTls)
+    # YTls = list_in_dot_txt(iterating_yt_video_list, type='r')
+    # what_videos_remain(YTls)
 
-    run_daily_routine = False
+    run_daily_routine = [True, "add only"] #"all", "post new", "add only"
 
-    if run_daily_routine:
+    if run_daily_routine[0]:
         playlist_items = get_playlist_items(r"D:\Secrets\youtube.json", r"D:\Secrets\youtubetoken.json", "PLrmB8yjf5C3wJ-FcDMzMCjjoqw16oosPa")
         #PLrmB8yjf5C3wJ-FcDMzMCjjoqw16oosPa ; PLrmB8yjf5C3xiyWqPsBYpDRMAdBjVvikP
-        vid = grab_next_video(iterating_yt_video_list, used_dir, playlist_items, "all") #"all", "post new"
+        vid = grab_next_video(iterating_yt_video_list, used_dir, playlist_items, run_daily_routine[1]) 
         msg = r"Kip's music video of the day! Black Lives Matter. Don't forget to vote. " + \
                 "Help your neighbor. https://www.youtube.com/watch?v=" + vid.strip()
 
