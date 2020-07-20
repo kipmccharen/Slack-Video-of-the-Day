@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # YTls = list_in_dot_txt(iterating_yt_video_list, type='r')
     # what_videos_remain(YTls)
 
-    run_daily_routine = [True, "add only"] #"all", "post new", "add only"
+    run_daily_routine = [True, "all"] #"all", "post new", "add only"
 
     if run_daily_routine[0]:
         playlist_items = get_playlist_items(r"D:\Secrets\youtube.json", r"D:\Secrets\youtubetoken.json", "PLrmB8yjf5C3wJ-FcDMzMCjjoqw16oosPa")
