@@ -1,0 +1,125 @@
+Class,Registry,Tchr,Type,Name,Group,To do,Due
+Bayesian,DS6014,Brown,HW,3.07 Assignment: Naive Bayes for Text Classification,,,9/16/2020
+Bayesian,DS6014,Brown,HW,3.09 Assignment: Confidence Intervals in Bayesian Regression,,,9/16/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 3,,,9/16/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 3,,,9/16/2020
+Bayesian,DS6014,Brown,HW,2.13 Assignment: Homework 1,,,9/17/2020
+Mining,SYS6018,Porter,HW,HW3,,,9/17/2020
+Bayesian,DS6014,Brown,Disc.,3.10 Discussion: Bayesian Classifiers and Regression,,,9/18/2020
+Bayesian,DS6014,Brown,HW,3.12 Assignment: Homework 1 Continued,,,9/18/2020
+PADS,DS6001,Kropko,HW,Lab assignment 3,,,9/18/2020
+Bayesian,DS6014,Brown,Disc.,4.09 Discussion: Graph Theory and Bayesian Machine Learning,,,9/21/2020
+Bayesian,DS6014,Brown,HW,4.10 Assignment: Homework 1 Due,,,9/21/2020
+Bayesian,DS6014,Brown,HW,4.12 Assignment: Homework 2,,,9/21/2020
+FoundCS,CS5012,Shakeri,Project,2.04.01  Assignments: Group Algorithm Presentation,,,9/22/2020
+Bayesian,DS6014,Brown,HW,4.03 Assignment: Graphical Models for Joint Distributions,,,9/23/2020
+Bayesian,DS6014,Brown,HW,4.05 Assignment: Graphical Model for a Logistic Regression Problem,,,9/23/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 4,,,9/23/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 4,,,9/23/2020
+Mining,SYS6018,Porter,HW,HW4,,,9/24/2020
+Bayesian,DS6014,Brown,HW,4.07 Assignment: Latent Dirichlet Allocation (LDA),,,9/25/2020
+Bayesian,DS6014,Brown,HW,4.08 Assignment: Project Proposals Due,,,9/25/2020
+PADS,DS6001,Kropko,HW,Lab assignment 4,,,9/25/2020
+Bayesian,DS6014,Brown,HW,5.04 Assignment: Markov Chain Convergence,,,9/28/2020
+Bayesian,DS6014,Brown,HW,5.07 Assignment: Sampling Properties,,,9/28/2020
+Bayesian,DS6014,Brown,HW,5.09 Assignment: MCMC,,,9/28/2020
+Bayesian,DS6014,Brown,HW,5.10 Assignment: Homework 2 Continued,,,9/28/2020
+Bayesian,DS6014,Brown,HW,5.12 Assignment: MCMC in Practice and MCMC Extensions,,,9/28/2020
+Bayesian,DS6014,Brown,Disc.,5.13 Discussion: MCMC for Problem Solving,,,9/28/2020
+FoundCS,CS5012,Shakeri,HW,3.06 Homework: Hashing Conflict Resolution+Randomized Selection+2-SUM,,,9/29/2020
+FoundCS,CS5012,Shakeri,Project,4.04.01  Assignment: Group Activity: Tree Traversal Practice,,,9/29/2020
+FoundCS,CS5012,Shakeri,HW,4.04.02  Assignment: Graph representation and DFS,,,9/29/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 5,,,9/30/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 5,,,9/30/2020
+Mining,SYS6018,Porter,Exam,Exam 1,,,10/1/2020
+PADS,DS6001,Kropko,HW,Lab assignment 5,,,10/2/2020
+Bayesian,DS6014,Brown,HW,6.04 Assignment: MCMC Regression,,,10/5/2020
+Bayesian,DS6014,Brown,HW,6.06 Assignment: MCMC Classification,,,10/5/2020
+Bayesian,DS6014,Brown,HW,6.07 Assignment: Project Activity,,,10/5/2020
+Bayesian,DS6014,Brown,Disc.,6.08 Discussion: MCMC for Classification and Regression,,,10/5/2020
+Bayesian,DS6014,Brown,HW,6.09 Assignment: Homework 2 Due,,,10/5/2020
+Bayesian,DS6014,Brown,HW,6.11 Assignment: Homework 3,,,10/5/2020
+FoundCS,CS5012,Shakeri,Quiz,5.05 Module 5 Quiz,,,10/6/2020
+FoundCS,CS5012,Shakeri,Project,5.06.01  Assignment: Binary Heaps,,,10/6/2020
+FoundCS,CS5012,Shakeri,HW,5.06.02  HeapSort,,,10/6/2020
+FoundCS,CS5012,Shakeri,Exam,5.07 Midterm Exam #1,,,10/6/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 6,,,10/7/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 6,,,10/7/2020
+Mining,SYS6018,Porter,HW,HW5,,,10/8/2020
+PADS,DS6001,Kropko,HW,Lab assignment 6,,,10/9/2020
+Bayesian,DS6014,Brown,HW,7.03 Assignment: Model Selection - Bayes Factor,,,10/12/2020
+Bayesian,DS6014,Brown,HW,7.05 Assignment: Model Selection - Information Criteria,,,10/12/2020
+Bayesian,DS6014,Brown,HW,7.07 Assignment: Bayesian Model Averaging,,,10/12/2020
+Bayesian,DS6014,Brown,HW,7.09 Assignment: Hierarchical Models,,,10/12/2020
+Bayesian,DS6014,Brown,HW,7.10 Assignment: Homework 3 Continued,,,10/12/2020
+Bayesian,DS6014,Brown,Disc.,7.11 Discussion: Bayesian Model Averaging and Hierarchical Models,,,10/12/2020
+FoundCS,CS5012,Shakeri,Quiz,6.04 Regular Expressions & Databases Quiz,,,10/13/2020
+FoundCS,CS5012,Shakeri,HW,6.04.02  Assignment: Heuristic solution for the 0-1 Knapsack problem and RegEx in Python,,,10/13/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 7,,,10/14/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 7,,,10/14/2020
+Mining,SYS6018,Porter,HW,HW6,,,10/15/2020
+Ethics,DS6002,Wylie,Project,Critical Review,,,10/16/2020
+PADS,DS6001,Kropko,HW,Lab assignment 7,,,10/16/2020
+Bayesian,DS6014,Brown,Quiz,,,,10/19/2020
+FoundCS,CS5012,Shakeri,Project,7.05 Assignment: Natural Join and Division in RA,,,10/20/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 8,,,10/21/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 8,,,10/21/2020
+Mining,SYS6018,Porter,HW,HW7,,,10/22/2020
+PADS,DS6001,Kropko,HW,Lab assignment 8,,,10/23/2020
+Bayesian,DS6014,Brown,HW,8.03 Assignment: Mixture Models,,,10/24/2020
+Bayesian,DS6014,Brown,HW,8.05 Assignment: Expectation Maximization,,,10/24/2020
+Bayesian,DS6014,Brown,HW,8.06 Assignment: Project Activity,,,10/24/2020
+Bayesian,DS6014,Brown,Disc.,8.07 Discussion: EM for Unsupervised Learning,,,10/24/2020
+Bayesian,DS6014,Brown,HW,8.08 Assignment: Homework 3 Due,,,10/24/2020
+Bayesian,DS6014,Brown,HW,8.10 Assignment: Homework 4,,,10/24/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 9,,,10/28/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 9,,,10/28/2020
+Mining,SYS6018,Porter,HW,HW8,,,10/29/2020
+PADS,DS6001,Kropko,HW,Lab assignment 9,,,10/30/2020
+Bayesian,DS6014,Brown,HW,9.03 Assignment: Expectation-Maximization Algorithm,,,10/31/2020
+Bayesian,DS6014,Brown,HW,9.05 Assignment: Approximation for a Beta Distribution,,,10/31/2020
+Bayesian,DS6014,Brown,Disc.,9.06 Discussion: Foundations of Variational Inference,,,10/31/2020
+Bayesian,DS6014,Brown,HW,9.07 Assignment: Homework 4 Continued,,,10/31/2020
+FoundCS,CS5012,Shakeri,HW,8.05 Assignment: Heroes and Villains and Normal forms,,,11/3/2020
+FoundCS,CS5012,Shakeri,HW,8.06 Homework: ER Diagrams,,,11/3/2020
+FoundCS,CS5012,Shakeri,Exam,9.05 Midterm Exam #2,,,11/3/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 10,,,11/4/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 10,,,11/4/2020
+PADS,DS6001,Kropko,HW,Lab assignment 10,,,11/6/2020
+Bayesian,DS6014,Brown,HW,10.03 Assignment: Variational Approximation,,,11/7/2020
+Bayesian,DS6014,Brown,HW,10.05 Assignment: Variational Optimization,,,11/7/2020
+Bayesian,DS6014,Brown,HW,10.06 Assignment: Project Activity,,,11/7/2020
+Bayesian,DS6014,Brown,Disc.,10.07 Discussion: Optimization for Variational Approximations,,,11/7/2020
+Bayesian,DS6014,Brown,HW,10.08 Assignment: Homework 4 Due,,,11/7/2020
+Bayesian,DS6014,Brown,HW,10.10 Assignment: Homework 5,,,11/7/2020
+FoundCS,CS5012,Shakeri,Quiz,10.03 ACID Quiz,,,11/10/2020
+FoundCS,CS5012,Shakeri,Project,10.05 Group Activity: NoSQL Databases,,,11/10/2020
+FoundCS,CS5012,Shakeri,Project,9.03 Sailors Activity,,,11/10/2020
+FoundCS,CS5012,Shakeri,HW,9.06 Homework: SQL and Databases,,,11/10/2020
+FoundCS,CS5012,Shakeri,Project,9.07 Mini-Project (Group): SQLite DB Creation,,,11/10/2020
+Mining,SYS6018,Porter,HW,HW9,,,11/10/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 11,,,11/11/2020
+PADS,DS6001,Kropko,Quiz,Reading Quiz 11,,,11/11/2020
+PADS,DS6001,Kropko,HW,Lab assignment 11,,,11/13/2020
+Bayesian,DS6014,Brown,HW,11.03 Assignment: Markov Random Fields,,,11/14/2020
+Bayesian,DS6014,Brown,HW,11.05 Assignment: Finding the Burglar,,,11/14/2020
+Bayesian,DS6014,Brown,HW,11.07 Assignment: HMM Inference,,,11/14/2020
+Bayesian,DS6014,Brown,Disc.,11.08 Discussion: Bayesian inference with HMM,,,11/14/2020
+Bayesian,DS6014,Brown,HW,11.09 Assignment: Homework 5 Continued,,,11/14/2020
+FoundCS,CS5012,Shakeri,HW,11.04 Producer-Consumer Model Scenario,,,11/17/2020
+FoundCS,CS5012,Shakeri,Project,11.06 Group Activity: Concurrency,,,11/17/2020
+Mining,SYS6018,Porter,HW,HW10,,,11/17/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 12,,,11/18/2020
+PADS,DS6001,Kropko,HW,Lab assignment 12,,,11/20/2020
+Bayesian,DS6014,Brown,Disc.,12.02 Discussion: Project Presentations and Peer Assessment,,,11/21/2020
+Bayesian,DS6014,Brown,Quiz,12.03 Quiz,,,11/21/2020
+Bayesian,DS6014,Brown,HW,12.04 Assignment: Homework 5 Due,,,11/21/2020
+Bayesian,DS6014,Brown,Disc.,12.05 Discussion: Linking Topics in Bayesian Machine Learning,,,11/21/2020
+Bayesian,DS6014,Brown,Quiz,,,,11/23/2020
+FoundCS,CS5012,Shakeri,Project,12.04 Dynamic Programming (Individual/pair),,,11/24/2020
+Mining,SYS6018,Porter,Exam,Exam 2,,,11/24/2020
+Ethics,DS6002,Wylie,Reflection,Reading Qs 13,,,12/2/2020
+FoundCS,CS5012,Shakeri,Exam,12.05 Final Exam,,,12/6/2020
+Bayesian,DS6014,Brown,Project,Final Project Presentation,,,12/7/2020
+Ethics,DS6002,Wylie,Project,Ethical analysis essay,,,12/8/2020
+Mining,SYS6018,Porter,Project,Final Project Presentation,,,12/9/2020

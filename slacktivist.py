@@ -122,15 +122,16 @@ if __name__ == "__main__":
     used_dir = r"D:\Git\Slack-Video-of-the-Day\used.txt"
     iterating_yt_video_list = r"D:\Git\Slack-Video-of-the-Day\slack_archive_BLM.txt"
 
-    ##Management Options##
-    # put_back_in_iter(['zein2Bq8ymI', 'V-jEjoliaA0', 'AB-S8wL-AKY'], iterating_yt_video_list, used_dir)
-    # remove_played_vids(iterating_yt_video_list, used_dir, True)
-    # YTls = list_in_dot_txt(iterating_yt_video_list, type='r')
-    # what_videos_remain(YTls)
-
     run_daily_routine = [True, "all"] #"all", "post new", "add only"
 
-    if run_daily_routine[0]:
+    if not run_daily_routine[0]:
+            ##Management Options##
+        # put_back_in_iter(['zein2Bq8ymI', 'V-jEjoliaA0', 'AB-S8wL-AKY'], iterating_yt_video_list, used_dir)
+        # remove_played_vids(iterating_yt_video_list, used_dir, True)
+        YTls = list_in_dot_txt(iterating_yt_video_list, type='r')
+        what_videos_remain(YTls)
+
+    else:
         playlist_items = get_playlist_items(r"D:\Secrets\youtube.json", r"D:\Secrets\youtubetoken.json", "PLrmB8yjf5C3wJ-FcDMzMCjjoqw16oosPa")
         #PLrmB8yjf5C3wJ-FcDMzMCjjoqw16oosPa ; PLrmB8yjf5C3xiyWqPsBYpDRMAdBjVvikP
         vid = grab_next_video(iterating_yt_video_list, used_dir, playlist_items, run_daily_routine[1]) 
